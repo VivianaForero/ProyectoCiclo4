@@ -27,6 +27,12 @@ export class Persona extends Entity {
     required: true,
   })
   Celular: string;
+  
+  @property({
+    type: 'string',
+    required: true,
+  })
+  Correo: string;
 
   @property({
     type: 'string',
